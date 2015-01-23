@@ -1,0 +1,4 @@
+
+#include "resource.h"
+
+APPICON ICON DISCARDABLE "phyxGraphy.ico"

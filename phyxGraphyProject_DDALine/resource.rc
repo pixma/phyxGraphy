@@ -1,0 +1,16 @@
+#include "resource.h"
+IDI_APPICON ICON DISCARDABLE "phyxGraphy.ico"
+
+APPLICATIONMENU MENU DISCARDABLE
+BEGIN
+    POPUP "&File"
+    BEGIN
+    MENUITEM "E&xit",        IDM_APPEXIT
+    MENUITEM "&Clear",       IDM_CLEAR
+    END
+
+    POPUP "&Help"
+    BEGIN
+    MENUITEM "&About Us",        IDM_APPABOUT
+    END
+END
